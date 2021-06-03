@@ -1,10 +1,10 @@
 body {
-  background-color: black;
+	background-color: black;
 
 
 
 }
- h1{
+h1{
 	 
 	border: 7px outset gray;
 	color: gray;
@@ -28,18 +28,25 @@ p{
 	font-size: 100%;
 }
 
-.styleone {
-			border: 7px outset gray;
-			background-color: orange;    
-			text-align: left;
-			font-size: 200%;
-			position: right;
-			}
+#detallemenu {
+	border: 7px outset gray;
+	background-color: orange;    
+	text-align: left;
+	font-size: 200%;
+	position: right;
+}
 			
 img {
-  width: 400px;
-  height: 222px;
-  border: 1px solid #000;
-  background-color: yellow;
-  margin-right: 1em;
+	width: 400px;
+	height: 222px;
+	border: 1px solid #000;
+	background-color: yellow;
+	margin-right: 1em;
+}
+
+#botonmenu {
+
+	color:orange;
+
+
 }
