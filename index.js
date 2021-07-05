@@ -9,28 +9,38 @@ $ es una funcion que hicieron los de jquery, en este caso recibe por parametro o
 cuando se pasa una funcion por parametros se le dice callback
 https://www.w3schools.com/Jquery/jquery_ref_selectors.asp
 */
-
-$(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
+    
     console.log( "document ready!" );
-    $("#detallemenu").hide();
-    $("#botonmenu").click(function(){
-        $("#detallemenu").show();
+    
+    var detallemenu = document.querySelector("#detallemenu");
+    
+    console.log("detallemenu"); 
+    console.log(detallemenu);
+    
+    detallemenu.style.display = 'none';
+    
+    
+    document.addEventListener("click", function(event) {
+        
         /*
         if es un condicional recibe como parametro un dato boolean
         */
+       
+        if (detallemenu.style.display == 'none'){
+            detallemenu.style.display = 'block';
         
-        if(  $('#content').is(':hidden')   ){
-            $('#content').show();
         }else{
-            $('#content').hide();
+            detallemenu.style.display = 'none';
         }
         
         console.log("vamos quimy que arrancamos fuerte!");
         console.log("acordate de experimentar!");
         
     });
-
+    
 });
+
 
 
 
