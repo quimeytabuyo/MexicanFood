@@ -24,8 +24,10 @@ $(function() {
         }else{
             $('#content').hide();
         }
-    
-    
+        
+        console.log("vamos quimy que arrancamos fuerte!");
+        console.log("acordate de experimentar!");
+        
     });
 
 });
